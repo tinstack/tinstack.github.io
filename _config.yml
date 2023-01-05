@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Wide Stack Developer"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Full Stack No, Wide Stack Developer!"
+  name             : "W.Stack Developer"
+  avatar           : "/assets/img/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Full Stack No, Wide Stack Yes!"
   location         : "Seoul, Korea"
   email            : layeronme@gmail.com
   links:
