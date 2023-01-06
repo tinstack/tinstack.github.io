@@ -27,7 +27,7 @@ figure.highlight {
 
   td {
     padding: 0;
-    width: (100% - 1em);
+    width: calc(100% - 1em);
     border: 0;
 
     /* line numbers*/
