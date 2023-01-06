@@ -18,7 +18,7 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    width: (#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -32,12 +32,12 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      max-height: (100vh - #{$nav-height} - 2em);
     }
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: (#{$right-sidebar-width} - 1em);
   }
 
   > * {
@@ -134,12 +134,12 @@
   }
 
   img {
-    max-width: 110px;
-    border-radius: 50%;
+    max-width: 200px;
+    border-radius: 0%;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 0px;
+      border: 0px solid $border-color;
     }
   }
 }
@@ -179,7 +179,9 @@
 
 .author__bio {
   margin: 0;
-
+  font-size: 0.9em;
+  font-style: italic;
+  
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
