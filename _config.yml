@@ -20,19 +20,19 @@ title                    : "Wide Stack Developer"
 title_separator          : "-"
 subtitle                 : "Full Stack No, Wide Stack YES" # site tagline that appears below site title in masthead
 name                     : "layer-on-me"
-description              : "An amazing website."
-url                      : "https://widestack.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "This blog covers everything from the latest IT trends and programming insights to everyday life topics."
+url                      : "https://tinstack.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "widestack/widestack" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "tinstack/tinstack" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Wide Stack Developer" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : false # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
-    shortname            : "widestac" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "widestack" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "layer-on-me"
+  name             : "tinstack"
   avatar           : "/assets/img/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Wide Stack Developer in Korea"
   location         : "Seoul, Korea"
@@ -115,7 +115,7 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://blog.tinstack.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -143,7 +143,7 @@ footer:
 #      # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/widestack"
+      url: "https://github.com/tinstack"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
