@@ -19,7 +19,6 @@ NextJS + Tailwind CSS 기반의 자체 블로그를 운영하고 있습니다.
 
 > [blog.tinstack.net](https://blog.tinstack.net)
 
-
 ---
 
 마지막으로 수정된 시간: {{ page.last_modified_at }}
