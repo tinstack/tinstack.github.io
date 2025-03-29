@@ -1,5 +1,5 @@
 ---
-title:  "github.io"
+title:  "tinstak.github.io"
 excerpt: "GitHub Blog 서비스인 github.io 블로그 시작"
 
 categories:
@@ -14,7 +14,7 @@ toc_sticky: true
 toc_label: "TOC"
 ---
 
-GitHub Blog 서비스인 github.io 블로그를 중단하고 
+tinstack.github.io 블로그를 중단하고 
 NextJS + Tailwind CSS 기반의 자체 블로그를 운영하고 있습니다.
 
 > [blog.tinstack.net](https://blog.tinstack.net)
